@@ -14,7 +14,9 @@ const config: HardhatUserConfig = {
     coreTestnet: {
       url: COREDAO_URL_KEY,
       accounts: [`0x${PRIVATE_KEY}`],
+   
     },
+    
   },
   etherscan: {
     apiKey:  ETHERSCAN_KEY,
